@@ -18,7 +18,7 @@ RUN pip install --no-cache-dir \
     easyocr>=1.7.2 \
     fastapi>=0.121.1 \
     onnxruntime>=1.23.2 \
-    pydantic>=2.12.4 \
+    python-multipart>=0.0.6 \
     rapidocr>=3.4.2 \
     uvicorn>=0.38.0
 
