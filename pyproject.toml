@@ -1,0 +1,13 @@
+[project]
+name = "upsonic-ocr-case"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "easyocr>=1.7.2",
+    "fastapi>=0.121.1",
+    "onnxruntime>=1.23.2",
+    "pydantic>=2.12.4",
+    "rapidocr>=3.4.2",
+    "uvicorn>=0.38.0",
+]
