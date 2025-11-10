@@ -34,7 +34,7 @@ async def process_ocr(file: UploadFile = File(...), ocr_strategy: str = Form(...
     
     return {
         "message": "OCR processing completed",
-        "file_path": "./random-invoice.png",
+        "file_path": file_path,
         "ocr_strategy": ocr_strategy,
         "backup_strategy": backup_strategy,
     }
